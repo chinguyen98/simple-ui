@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+img{
+    width: 50rem;
+    height: 30rem;
+    margin: 0 auto;
+}
+
+.btn{
+    padding-top: 0.2rem;
+    padding-left: 0.9rem;
+    font-size: 3rem;
+    background-color: black;
+    color: white;
+    border: 2px solid blue;
+    border-radius: 50%;
+    display: inline-block;
+    width: 4rem;
+    height: 4rem;
+    position: absolute;
+    cursor: pointer;
+    user-select: none;
+    transition: all 0.5s;
+}
+
+.btn:hover{
+    color: black;
+    border: 2px solid red;
+    background-color: pink;
+}
+
+.btn:active{
+    color: black;
+    border: 2px solid red;
+    background-color: blue;
+}
+
+.btn-left{
+    top:50%;
+    left:15%
+}
+
+.btn-right{
+    top: 50%;
+    right: 15%;
+}
+
+.d-none{
+    display: none;
+}
+
+.slideshow{
+    display: flex;
+    justify-content: center;
+}  
+
+.slideshow-container{
+    margin-top: 3rem;
+    position: relative;;
+}
